@@ -11,11 +11,38 @@ const initdb = async () =>
       console.log('jate database created');
     },
   });
+//GET function
+export const getDb = async (value) => {
+  console.log('GET from the jateDB');
+  // Connect to DB and version to use
+  const jateDB = await openDB('jate', 1);
+  // Create a new transaction and specify the DB and data privileges.
+  const tx = jateDB.transaction("jate", "readwrite");
+  // Open up desired object store
+  const store = tx.objectStore("jate");
+  // .getAll() method to get all data from DB
+  const request = store.put({ jate: content });
+  // Reqest confirmation
+  const result = await request;
+  console.log("Data saved to the database", result);
 
-// TODO: Add logic to a method that accepts some content and adds it to the database
-export const putDb = async (content) => console.error('putDb not implemented');
+}
 
-// TODO: Add logic for a method that gets all the content from the database
-export const getDb = async () => console.error('getDb not implemented');
+// PUT function
+export const putDb = async (content) => {
+  console.log('Put request to update jateDB');
+  // Connect to DB and version to use
+  const jateDB = await openDB("jate", 1);
+  // Create a new transaction and specify the DB and data privileges.
+  const tx = jateDB.transaction("jate", "readwrite");
+  // Open up desired object store
+  const store = tx.objectStore("jate");
+   // .getAll() method to get all data from DB
+  const request = store.put({ jate: content });
+  // Reqest confirmation
+  const result = await request;
+  console.log("Data saved to the database", result);
+};
+
 
 initdb();
