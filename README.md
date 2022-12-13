@@ -1,7 +1,7 @@
 # PWA-TextEditor
 
 
-##  ## Table of Contents:  
+## Table of Contents:  
 [1. Description](#Description)   
 [2. Installation](#Installation)
 [3. Screenshots](#Screenshots)      
