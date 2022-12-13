@@ -2,10 +2,10 @@
 
 
 ## Table of Contents:  
-[1. Description](#Description)
-[2. Installation](#Installation)
-[3. Screenshots](#Screenshots)
-[4. Deployed](#Deployed)
+[1. Description](#Description)   
+[2. Installation](#Installation)  
+[3. Screenshots](#Screenshots)  
+[4. Deployed](#Deployed)   
 
 ## Description
 This app is a text editor that runs in the browser. It is a single-page application that meets the PWA criteria. Additionally, it features a number of data persistence techniques that serve as redundancies in case one of the options is not supported by the browser. The application will also function offline.
