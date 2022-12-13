@@ -6,6 +6,7 @@
 [2. Installation](#Installation)  
 [3. Screenshots](#Screenshots)  
 [4. Deployed](#Deployed)   
+[5. Questions](#Questions)
 
 ## Description
 This app is a text editor that runs in the browser. It is a single-page application that meets the PWA criteria. Additionally, it features a number of data persistence techniques that serve as redundancies in case one of the options is not supported by the browser. The application will also function offline.
@@ -33,3 +34,7 @@ Service worker/Manifest/IndexedDB
 ## Deployed
 App is deployed live on heroku at: 
 https://agile-waters-48447.herokuapp.com/
+
+## Questions
+Github: github.com/tmunkhb
+Email: tmunkhb@gmail.com
