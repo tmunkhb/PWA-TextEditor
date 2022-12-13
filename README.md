@@ -2,9 +2,9 @@
 
 
 ## Table of Contents:  
-[1. Description](#Description)   
+[1. Description](#Description)
 [2. Installation](#Installation)
-[3. Screenshots](#Screenshots)      
+[3. Screenshots](#Screenshots)
 [4. Deployed](#Deployed)
 
 ## Description
